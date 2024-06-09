@@ -25,10 +25,10 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
         chrome.storage.local.get('annotations', function(result) {
             var annotations = result.annotations || [];
 
-            // Append the new annotation
+           
             annotations.push({word: annotatedWord, text: annotationText});
 
-            // Store the updated annotations
+          
             chrome.storage.local.set({annotations: annotations});
         });
        
@@ -85,7 +85,7 @@ function highlightSelectedText() {
 //     document.head.appendChild(script);
 // }
 
-// Function to generate PDF after jsPDF is loaded
+
 // function generatePDF(annotations) {
 //     if (typeof jsPDF === 'undefined') {
 //         console.log("Creating PDF if");

@@ -13,13 +13,13 @@ chrome.storage.local.get('annotations', function(result) {
     
 var table = document.getElementById('annotations-table');
 
-// Hide the table if there are no annotations
+
 if (annotations.length === 0) {
     table.style.display = 'none';
 } else {
-    table.style.display = 'table'; // Or whatever the original display value was
+    table.style.display = 'table';
 }
-    // Create a new row for each annotation
+   
     annotations.forEach(function(annotation) {
         var row = table.insertRow();
 
@@ -36,7 +36,7 @@ if (annotations.length === 0) {
         deleteButton.textContent = 'Delete';
         cell3.appendChild(deleteButton);
         deleteButton.addEventListener('click', function() {
-            // Find the index of the annotation
+           
             var index = annotations.findIndex(a => a.word === annotation.word);
             annotations.splice(index, 1);
              
