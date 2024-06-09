@@ -18,9 +18,10 @@ Web Annotator is a Chrome extension that allows users to annotate text on any we
 ## Usage
 
 1. Highlight any text on a webpage.
-2. Right-click the highlighted text and select "Annotate".
+2. Press the Extension Icon and write down the annotation.
 3. The annotation will be saved and highlighted on the page.
-4. Click on the extension icon to view all annotations for the current page.
+4. Click on the extension icon--->"Annotation" to view all annotations.
+
 
 ## Key Board ShoryCut to Highlight Text
 - Select the required text 
@@ -30,9 +31,6 @@ Web Annotator is a Chrome extension that allows users to annotate text on any we
 - Search Algorithm
 - Export(Download) in pdf format-(Tried my level best, but was encountered by lot of errors which I failed to resolve)
 
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 
